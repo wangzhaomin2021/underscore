@@ -1,3 +1,4 @@
+// @wzm 2022-12-3
 import { hasOwnProperty } from './_setup.js';
 
 // Internal function to check whether `key` is an own property name of `obj`.
