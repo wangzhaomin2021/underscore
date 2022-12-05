@@ -1,3 +1,4 @@
+// @wzm 2022-12-5
 import keys from './keys.js';
 
 // Convert an object into a list of `[key, value]` pairs.
