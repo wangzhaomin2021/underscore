@@ -1,3 +1,4 @@
+// @wzm 2022-12-6
 import { toString } from './_setup.js';
 
 // Internal function for creating a `toString`-based type tester.
