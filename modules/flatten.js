@@ -1,3 +1,4 @@
+// @wzm 2022-12-6
 import _flatten from './_flatten.js';
 
 // Flatten out an array, either recursively (by default), or up to `depth`.
