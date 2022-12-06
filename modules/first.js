@@ -1,3 +1,4 @@
+// @wzm 2022-12-6
 import initial from './initial.js';
 
 // Get the first element of an array. Passing **n** will return the first N
