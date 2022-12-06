@@ -1,3 +1,4 @@
+// @wzm 2022-12-6
 import getLength from './_getLength.js';
 import isArrayLike from './_isArrayLike.js';
 import isArray from './isArray.js';
@@ -18,7 +19,7 @@ export default function flatten(input, depth, strict, output) {
       // Flatten current level of array or arguments object.
       if (depth > 1) {
         flatten(value, depth - 1, strict, output);
-        idx = output.length;
+        idx = output.length;  // 更新局部idx
       } else {
         var j = 0, len = value.length;
         while (j < len) output[idx++] = value[j++];
@@ -29,3 +30,20 @@ export default function flatten(input, depth, strict, output) {
   }
   return output;
 }
+
+/* 简单实现
+function flatten(arr, depth = 1, array = []) {
+	arr.forEach(item => {
+		if (Array.isArray(item)) {
+			if (depth === 1) {
+				array.push(...item)
+			} else {
+				flatten(item, depth - 1, array)
+			}
+		} else {
+			array.push(item)
+		}
+	})
+	return array
+}
+*/
