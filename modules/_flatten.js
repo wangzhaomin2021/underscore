@@ -1,3 +1,4 @@
+// @wzm 2022-12-7
 import getLength from './_getLength.js';
 import isArrayLike from './_isArrayLike.js';
 import isArray from './isArray.js';
