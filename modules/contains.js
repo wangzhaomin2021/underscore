@@ -1,3 +1,4 @@
+// @wzm 2022-12-7
 import isArrayLike from './_isArrayLike.js';
 import values from './values.js';
 import indexOf from './indexOf.js';
