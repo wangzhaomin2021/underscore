@@ -1,3 +1,4 @@
+// @wzm 2022-12-8
 import { toString } from './_setup.js';
 
 // Is a given value a boolean?
