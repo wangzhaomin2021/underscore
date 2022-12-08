@@ -1,3 +1,4 @@
+// @wzm 2022-12-8
 import { _isNaN } from './_setup.js';
 import isNumber from './isNumber.js';
 
