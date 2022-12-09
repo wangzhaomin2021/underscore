@@ -1,3 +1,4 @@
+// @wzm 2022-12-9
 import isArrayLike from './_isArrayLike.js';
 import values from './values.js';
 import getLength from './_getLength.js';
@@ -17,11 +18,13 @@ export default function sample(obj, n, guard) {
   var length = getLength(sample);
   n = Math.max(Math.min(n, length), 0);
   var last = length - 1;
+  // 随机交换n次
   for (var index = 0; index < n; index++) {
     var rand = random(index, last);
     var temp = sample[index];
     sample[index] = sample[rand];
     sample[rand] = temp;
   }
+  // 复制副本返回
   return sample.slice(0, n);
 }
