@@ -1,3 +1,4 @@
+// @wzm 2022-12-9
 import tagTester from './_tagTester.js';
 import { isIE11 } from './_stringTagBug.js';
 import { ie11fingerprint, setMethods }  from './_methodFingerprint.js';
