@@ -1,3 +1,4 @@
+// @wzm 2022-12-11
 // Internal function that returns an efficient (for current engines) version
 // of the passed-in callback, to be repeatedly applied in other Underscore
 // functions.
