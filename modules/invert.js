@@ -1,3 +1,4 @@
+// @wzm 2022-12-11
 import keys from './keys.js';
 
 // Invert the keys and values of an object. The values must be serializable.
