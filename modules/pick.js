@@ -1,3 +1,4 @@
+// @wzm 2022-12-11
 import restArguments from './restArguments.js';
 import isFunction from './isFunction.js';
 import optimizeCb from './_optimizeCb.js';
