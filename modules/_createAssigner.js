@@ -1,3 +1,4 @@
+// @wzm 2022-12-12
 // An internal function for creating assigner functions.
 export default function createAssigner(keysFunc, defaults) {
   return function(obj) {
