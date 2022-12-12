@@ -1,3 +1,4 @@
+// @wzm 2022-12-12
 import isObject from './isObject.js';
 import { hasEnumBug } from './_setup.js';
 import collectNonEnumProps from './_collectNonEnumProps.js';
