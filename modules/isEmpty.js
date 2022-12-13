@@ -1,3 +1,4 @@
+// @wzm 2022-12-13
 import getLength from './_getLength.js';
 import isArray from './isArray.js';
 import isString from './isString.js';
