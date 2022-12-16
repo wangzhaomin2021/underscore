@@ -1,3 +1,4 @@
+// @wzm 2022-12-16
 import { MAX_ARRAY_INDEX } from './_setup.js';
 
 // Common internal logic for `isArrayLike` and `isBufferLike`.
