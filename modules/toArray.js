@@ -1,3 +1,4 @@
+// @wzm 2022-12-16
 import isArray from './isArray.js';
 import { slice } from './_setup.js';
 import isString from './isString.js';
