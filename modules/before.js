@@ -11,3 +11,17 @@ export default function before(times, func) {
     return memo;
   };
 }
+
+/*
+function before(fn, times) {
+	let result
+	
+	return (...args) => {
+		if (--times > 0) {
+			return result = fn.apply(this, ...args)
+		}
+		fn = null
+		return result
+	}
+}
+*/
