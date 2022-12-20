@@ -10,7 +10,7 @@ export default function before(times, func) {
     if (times <= 1) func = null;
     return memo;
   };
-}
+} 
 
 /*
 function before(fn, times) {
