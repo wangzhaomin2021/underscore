@@ -1,3 +1,4 @@
+// @wzm 2022-12-20 关注下自定义的create模拟实现
 import isObject from './isObject.js';
 import { nativeCreate } from './_setup.js';
 
