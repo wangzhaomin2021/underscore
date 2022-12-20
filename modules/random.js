@@ -1,3 +1,4 @@
+// @wzm 2022-12-20
 // Return a random integer between `min` and `max` (inclusive).
 export default function random(min, max) {
   if (max == null) {
