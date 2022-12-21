@@ -1,3 +1,4 @@
+// @wzm 2022-12-21
 import cb from './_cb.js';
 import each from './each.js';
 
@@ -10,3 +11,14 @@ export default function filter(obj, predicate, context) {
   });
   return results;
 }
+
+/*
+function filter(arr, cb, thisArg) {
+	const len = arr.length
+	const result = []
+	for(let i = 0; i < len; i++) {
+		if (cb.call(thisArg || null, arr[i], i, arr)) result.push(arr[i])
+	}
+	return result
+}
+*/
