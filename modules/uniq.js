@@ -1,3 +1,4 @@
+// @wzm 2022-12-22
 import isBoolean from './isBoolean.js';
 import cb from './_cb.js';
 import getLength from './_getLength.js';
