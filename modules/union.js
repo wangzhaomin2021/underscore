@@ -1,3 +1,4 @@
+// @wzm 2022-12-22
 import restArguments from './restArguments.js';
 import uniq from './uniq.js';
 import flatten from './_flatten.js';
