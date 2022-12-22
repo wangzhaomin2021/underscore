@@ -8,3 +8,19 @@ import flatten from './_flatten.js';
 export default restArguments(function(arrays) {
   return uniq(flatten(arrays, true, true));
 });
+
+/*
+function union(...args) {
+	args.forEach(arr => {
+		if (!Array.isArray(arr)) throw new Error('item of arguments must be type of array')
+	})
+	const set = new Set()
+	for (let arr of args) {
+		for (let v of arr) {
+			set.add(v)
+		}
+	}
+	
+	return [...set]
+}
+*/
