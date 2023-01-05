@@ -1,3 +1,4 @@
+// @wzm 2023-1-5
 import toPath from './_toPath.js';
 import deepGet from './_deepGet.js';
 import isUndefined from './isUndefined.js';
