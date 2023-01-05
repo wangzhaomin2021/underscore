@@ -1,3 +1,4 @@
+// @wzm 2023-1-5
 // Internal function to obtain a nested property in `obj` along `path`.
 export default function deepGet(obj, path) {
   var length = path.length;
