@@ -1,3 +1,4 @@
+// @wzm 2023-1-9
 import { slice } from './_setup.js';
 
 // Returns everything but the first entry of the `array`. Especially useful on
