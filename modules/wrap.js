@@ -1,3 +1,4 @@
+// @wzm 2023-1-10
 import partial from './partial.js';
 
 // Returns the first function passed as an argument to the second,
@@ -6,3 +7,9 @@ import partial from './partial.js';
 export default function wrap(func, wrapper) {
   return partial(wrapper, func);
 }
+
+/*
+function wrap(func, wrapper) {
+	return () => wrapper?.(func)
+}
+*/
