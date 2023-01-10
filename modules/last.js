@@ -8,3 +8,10 @@ export default function last(array, n, guard) {
   if (n == null || guard) return array[array.length - 1];
   return rest(array, Math.max(0, array.length - n));
 }
+
+/*
+function last(arr, size) {
+	if (size == null) return arr[arr.length - 1]
+	else return arr.slice(arr.length - size, arr.length)
+}
+*/
