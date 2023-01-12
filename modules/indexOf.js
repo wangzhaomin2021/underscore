@@ -8,3 +8,14 @@ import createIndexFinder from './_createIndexFinder.js';
 // If the array is large and already in sort order, pass `true`
 // for **isSorted** to use binary search.
 export default createIndexFinder(1, findIndex, sortedIndex);
+
+/*
+function indexOf(array, value, beginIndex = 0) {
+	const len = array.length
+	if (beginIndex < 0 || beginIndex > len) beginIndex = 0
+	for (let i = beginIndex; i < len; i++) {
+		if (array[i] === value) return i
+	}
+	return -1
+}
+*/
