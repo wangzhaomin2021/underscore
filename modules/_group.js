@@ -1,3 +1,4 @@
+// @wzm 2023-1-12
 import cb from './_cb.js';
 import each from './each.js';
 
@@ -13,3 +14,21 @@ export default function group(behavior, partition) {
     return result;
   };
 }
+
+/*
+function groupBy(list, iteratee, context) {
+	const ret = {}
+	if (context && typeof iteratee === 'function') iteratee = iteratee.bind(content)
+	const type = typeof iteratee === 'string' ? 'string' : typeof iteratee === 'function' ? 'function' : 'error'
+	if (type === 'error') return list
+	const iter = type === 'string' ? (item) => item[iteratee] : iteratee  // 统一迭代器
+	
+	list.forEach((item, index, ctx) => {
+		const r = iter(item, index, ctx)
+		if (!ret[r]) ret[r] = [item]
+		else ret[r].push(item)
+	})
+	
+	return ret
+}
+*/
