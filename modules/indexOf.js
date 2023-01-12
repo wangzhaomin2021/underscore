@@ -1,3 +1,4 @@
+// @wzm 2023-1-12
 import sortedIndex from './sortedIndex.js';
 import findIndex from './findIndex.js';
 import createIndexFinder from './_createIndexFinder.js';
